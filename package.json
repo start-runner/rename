@@ -1,6 +1,6 @@
 {
   "name": "start-rename",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rename task for Start",
   "keywords": [ "start", "start-task", "rename" ],
   "homepage": "https://github.com/start-runner/rename",
