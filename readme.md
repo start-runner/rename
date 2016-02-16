@@ -1,7 +1,8 @@
 # start-rename
 
 [![npm](https://img.shields.io/npm/v/start-rename.svg?style=flat-square)](https://www.npmjs.com/package/start-rename)
-[![travis](http://img.shields.io/travis/start-runner/rename.svg?style=flat-square)](https://travis-ci.org/start-runner/rename)
+[![linux build](https://img.shields.io/travis/start-runner/rename.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/rename)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/rename.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/rename)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/rename.svg?style=flat-square)](https://codecov.io/github/start-runner/rename)
 [![deps](https://img.shields.io/gemnasium/start-runner/rename.svg?style=flat-square)](https://gemnasium.com/start-runner/rename)
 [![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
