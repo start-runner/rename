@@ -10,8 +10,10 @@ Rename task for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -S start-rename
+```sh
+npm install --save-dev start-rename
+# or
+yarn add --dev start-rename
 ```
 
 ## Usage
@@ -25,16 +27,14 @@ import less from 'start-less';
 import rename from 'start-rename';
 import write from 'start-write';
 
-export function build() {
-    return start(reporter())(
-        files('build/'),
-        clean(),
-        files('lib/**/*.less'),
-        less(),
-        rename(file => file.replace(/\.less$/, '.css')),
-        write('build/')
-    );
-}
+export const build = () => start(reporter())(
+  files('build/'),
+  clean(),
+  files('lib/**/*.less'),
+  less(),
+  rename((file) => file.replace(/\.less$/, '.css')),
+  write('build/')
+);
 ```
 
 This task relies on `[{ path, data, map }]` input and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
