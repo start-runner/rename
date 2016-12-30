@@ -2,27 +2,28 @@
   "name": "start-rename",
   "version": "0.1.2",
   "description": "Rename task for Start",
-  "keywords": [ "start", "start-task", "rename" ],
+  "keywords": [
+    "start",
+    "start-task",
+    "rename"
+  ],
   "homepage": "https://github.com/start-runner/rename",
   "repository": "start-runner/rename",
   "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
-  "files": [ "build/" ],
+  "files": [
+    "build/"
+  ],
   "main": "build/index.js",
-  "dependencies": {
-    "babel-runtime": "^6.11.6"
-  },
   "devDependencies": {
-    "start-babel-cli": "^3.0.0",
-    "start-start-preset": "^2.0.0",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-plugin-transform-runtime": "^6.12.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-eslint": "^6.1.2",
-    "eslint-plugin-babel": "^3.3.0",
+    "babel-preset-start": "^0.1.0",
     "eslint-config-rebem": "^1.1.0",
-    "tape": "^4.6.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "husky": "^0.11.6",
     "sinon": "^1.17.5",
-    "husky": "^0.11.6"
+    "start-babel-cli": "^3.0.0",
+    "start-start-preset": "^3.0.0",
+    "tape": "^4.6.0"
   },
   "scripts": {
     "start": "start-runner -p start-start-preset",
@@ -30,7 +31,7 @@
     "prepublish": "npm start build"
   },
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=4"
   },
   "license": "MIT"
 }
